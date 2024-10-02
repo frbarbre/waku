@@ -1,0 +1,26 @@
+{
+  "name": "waku-test",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "waku dev",
+    "build": "waku build",
+    "start": "waku start"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.3",
+    "react": "19.0.0-rc-d6cb4e77-20240911",
+    "react-dom": "19.0.0-rc-d6cb4e77-20240911",
+    "react-server-dom-webpack": "19.0.0-rc-d6cb4e77-20240911",
+    "waku": "0.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "tailwindcss": "3.4.11",
+    "typescript": "5.6.2"
+  }
+}
